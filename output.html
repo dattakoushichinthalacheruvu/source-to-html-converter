@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Source Code</title>
+<style>
+body { background-color: black; color: white; font-family: monospace; font-size: 16px; }
+.keyword { color: blue; font-weight: bold; }
+.string { color: orange; }
+.comment { color: green; }
+.number { color: red; }
+</style>
+</head>
+<body>
+<pre>
+#include &lt;stdio.h&gt;
+
+<span class="keyword">int</span> main()
+{
+    <span class="keyword">int</span> a = <span class="number">10</span>;
+    <span class="keyword">int</span> b = <span class="number">20</span>;
+    <span class="keyword">int</span> sum;
+
+    <span class="comment">// Calculate the sum</span>
+
+    sum = a + b;
+
+    <span class="keyword">if</span> (sum &gt; <span class="number">20</span>)
+    {
+        printf(<span class="string">"Sum is greater than 20"</span>);
+    }
+    <span class="keyword">else</span>
+    {
+        printf(<span class="string">"Sum is 20 or less"</span>);
+    }
+
+    <span class="comment">/*
+       This is a
+       multi-line comment
+    */</span>
+
+    <span class="keyword">return</span> <span class="number">0</span>;
+}</pre>
+</body>
+</html>

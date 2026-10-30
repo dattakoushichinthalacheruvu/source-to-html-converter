@@ -1,0 +1,5 @@
+all:
+	gcc main.c html.c -o source_to_html
+
+clean:
+	rm -f source_to_html
